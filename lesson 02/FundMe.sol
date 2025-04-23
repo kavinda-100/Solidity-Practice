@@ -73,7 +73,7 @@ contract FundMe {
         return funders.length;
     }
 
-    // if user do somthing accidentally fallback or recive to the fund function by defalt
+    // if user do somthing accidentally fallback or receive to the fund function by defalt
     receive() external payable {
         fund();
     }
